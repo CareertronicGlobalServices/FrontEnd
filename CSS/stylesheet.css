@@ -1,10 +1,53 @@
 * {
-  background-color: gray;
-}
-.first {
-  background-color: blue;
-}
-#unique {
-  background-color: red;
+  background-color: black;
   color: white;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+h1,
+h3 {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: italic;
+  text-align: center;
+}
+h2 {
+  text-align: left;
+  color: red;
+}
+p {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #333;
+}
+// PseudoClasses
+ol :first-child {
+  color: orange;
+  font-weight: bold;
+}
+ol :last-child {
+  color: green;
+  font-weight: bold;
+}
+
+ol :nth-child(2) {
+  color: aqua;
+  font-weight: italic;
+  font-style: oblique;
+  font-size: 20px;
+}
+ol :nth-child(3) {
+  color: yellow;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+a {
+  color: blue;
+
+  font-weight: bold;
+  font-size: 20px;
 }
