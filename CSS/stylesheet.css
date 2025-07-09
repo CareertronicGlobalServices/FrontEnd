@@ -1,0 +1,10 @@
+* {
+  background-color: gray;
+}
+.first {
+  background-color: blue;
+}
+#unique {
+  background-color: red;
+  color: white;
+}
