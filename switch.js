@@ -1,17 +1,13 @@
-let day = "-";
+let day = 1;
 let a = 7;
 let b = 90;
 
 switch (day) {
-  case "+": {
-    console.log("Addition");
-
-    var sum = b - a;
-    console.log(sum);
+  case 1: {
+    console.log("Monday");
   }
-  case "-": {
+  case 2: {
     console.log("Tuesday");
-    console.log(sum);
     break;
   }
   case 3: {
