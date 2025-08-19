@@ -1,58 +1,111 @@
-// //loop
+// // // //loop
 
-// //while loop
+// // // //while loop
 
-// let i = 5;
+// // // let i = 5;
 
-// // //while(condition){ ----statements to run}
-// // while (i <= 10) {
-// //   console.log(`i =${i}`);
-// //   i++; //(i=i+1)
+// // // // //while(condition){ ----statements to run}
+// // // // while (i <= 10) {
+// // // //   console.log(`i =${i}`);
+// // // //   i++; //(i=i+1)
+// // // // }
+// // // // console.log(`I am out of the loop ${i}`);
+// // // //Reminder - %
+// // // //decimal remove karne k liye - Math.floor
+
+// // // let num = 879546879;
+// // // let maxdig = 0;
+// // // while (num > 0) {
+// // //   let dig = num % 10;
+// // //   //console.log(dig);
+// // //   if (dig > maxdig) {
+// // //     maxdig = dig;
+// // //   }
+// // //   //need to check one condition
+
+// // //   //yah pr number ko update karna padega // last number remove hua hai
+// // //   num = Math.floor(num / 10);
+// // //   //console.log(num);
+// // //   // console.log(maxdig);
+// // // }
+// // // console.log(maxdig);
+
+// // //Prime
+// // let num = 25;
+// // let isPrime = true; //willMath store if num is prime /not prime
+
+// // if (num <= 1) {
+// //   console.log("no. iseither 0 or 1 and hence is not prime");
+// //   isPrime = false;
 // // }
-// // console.log(`I am out of the loop ${i}`);
-// //Reminder - %
-// //decimal remove karne k liye - Math.floor
+// // //console.log(Math.floor(Math.sqrt(num)));
+// // let sqrt = Math.floor(Math.sqrt(num));
+// // //console.log(sqrt);
+// // let i = 2;
+// // while (i <= sqrt) {
+// //   console.log(i);
+// //   if (num % i === 0) {
+// //     isPrime = false;
+// //     break;
+// //   }
+// //   i++;
+// // }
 
-// let num = 879546879;
-// let maxdig = 0;
-// while (num > 0) {
-//   let dig = num % 10;
-//   //console.log(dig);
-//   if (dig > maxdig) {
-//     maxdig = dig;
-//   }
-//   //need to check one condition
+// // if (isPrime === true) {
+// //   console.log(`number is prime`);
+// // } else {
+// //   console.log("number is not prime");
+// // }
+// // // while(condition)--{Statements }
 
-//   //yah pr number ko update karna padega // last number remove hua hai
-//   num = Math.floor(num / 10);
-//   //console.log(num);
-//   // console.log(maxdig);
+// // let a = 5;
+// // while (a < 10) {
+// //   console.log("Shubham " + a);
+// //   a++;
+// // }
+// // loop- do while
+
+// // let b = 10;
+// // do {
+// //   console.log(` b = ${b}`); //string
+// //   b++;
+// // } while (b < 20);
+
+// let num = 17;
+// let isPrime = true; //willMath store if num is prime /not prime
+
+// if (num <= 1) {
+//   console.log("no. iseither 0 or 1 and hence is not prime");
+//   isPrime = false;
 // }
-// console.log(maxdig);
+// //console.log(Math.floor(Math.sqrt(num)));
+// let sqrt = Math.floor(Math.sqrt(num));
+// //console.log(sqrt);
+// let i = 2;
+// do {
+//   console.log(i);
+//   if (num % i === 0) {
+//     isPrime = false;
+//     break;
+//   }
+//   i++;
+// } while (i <= sqrt);
+// if (isPrime === true) {
+//   console.log(`number is prime`);
+// } else {
+//   console.log("number is not prime");
+// }
 
-//Prime
-let num = 25;
-let isPrime = true; //willMath store if num is prime /not prime
+// for loops
+// variable initialisation
+// while(condition)
+//   inc/dec
+//for(initialization;condtion;inc/dec)
+//{ -------statements
+//-------
+//-----
+//}
 
-if (num <= 1) {
-  console.log("no. iseither 0 or 1 and hence is not prime");
-  isPrime = false;
-}
-//console.log(Math.floor(Math.sqrt(num)));
-let sqrt = Math.floor(Math.sqrt(num));
-//console.log(sqrt);
-let i = 2;
-while (i <= sqrt) {
+for (let i = 5; i < 10; i++) {
   console.log(i);
-  if (num % i === 0) {
-    isPrime = false;
-    break;
-  }
-  i++;
-}
-
-if (isPrime === true) {
-  console.log(`number is prime`);
-} else {
-  console.log("number is not prime");
 }

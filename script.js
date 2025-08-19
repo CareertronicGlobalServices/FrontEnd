@@ -2,7 +2,7 @@
 //Variable --vary(change) able (ability)
 //aisa koi value jo pure program me change ho sakta hai
 //Constant - kabhi change ni hoga
-// Valur has a type but not a variable // dynamic typing -
+// Value has a type but not a variable // dynamic typing -
 
 let a = 5;
 let b = "KAnchan";
