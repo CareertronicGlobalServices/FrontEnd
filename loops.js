@@ -105,7 +105,19 @@
 //-------
 //-----
 //}
+// reverse print numbers
 
-for (let i = 5; i < 10; i++) {
-  console.log(i);
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+//
+
+let num = 5;
+let fact = 1;
+// 5 x 4 x 3 x 2x 1
+while (num >= 1) {
+  fact = fact * num;
+  num--;
+  console.log(num, fact);
 }
+console.log(`factorial of ${fact}`);
