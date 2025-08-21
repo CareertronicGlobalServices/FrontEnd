@@ -56,8 +56,8 @@
 let a = [1, 3, 2, 4, 5, [1, [4, 5, [1, 2, 4]]]];
 let b = [1, 2, 3];
 let c = [4, 5, 6];
-let kd = [...b]; //concat /b...
-console.log(kd);
+//let kd =  (...b); //concat /b...
+console.log(...b);
 
 // let b = a.flat(Infinity); // flat takes the input as depth
 // console.log(a);
