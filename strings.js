@@ -1,36 +1,49 @@
-let Rname = "Shubham";
-//console.log(typeof Rname);
-let count = 50;
-//console.log(Rname + count);
-//Charat
-//console.log(Rname.charAt(2));
-//console.log(Rname.__proto__);
+// let Rname = "Shubham";
+// //console.log(typeof Rname);
+// let count = 50;
+// //console.log(Rname + count);
+// //Charat
+// //console.log(Rname.charAt(2));
+// //console.log(Rname.__proto__);
 
-const gameName = new String("sonam-sp-com");
+// const gameName = new String("sonam-sp-com");
+// // console.log(gameName);
+// // console.log(typeof gameName);
+// // console.log(gameName[2]);
+// // console.log(gameName.__proto__);
+
+// // console.log(gameName.length);
+// // console.log(gameName.toUpperCase());
+// // console.log(gameName.charAt(2));
+// // console.log(gameName.indexOf("t"));
+
+// const newString = gameName.substring(0, 6);
+// console.log(newString);
+
+// const anotherString = gameName.slice(0, 4);
+// console.log(anotherString);
 // console.log(gameName);
-// console.log(typeof gameName);
-// console.log(gameName[2]);
-// console.log(gameName.__proto__);
+// const newStringOne = "   Sonam    ";
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
-// console.log(gameName.charAt(2));
-// console.log(gameName.indexOf("t"));
+// const url = "www.sonampanjwani%20.com";
 
-const newString = gameName.substring(0, 6);
-console.log(newString);
+// console.log(url.replace("%20", "-"));
 
-const anotherString = gameName.slice(0, 4);
-console.log(anotherString);
-console.log(gameName);
-const newStringOne = "   Sonam    ";
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(url.includes("com"));
+// let newname = "sonamKanchan";
+// console.log(newname.split("K"));
 
-const url = "www.sonampanjwani%20.com";
+//
 
-console.log(url.replace("%20", "-"));
+// function add(num1, num2) {
+//   console.log(num1 + num2);
+// }
 
-console.log(url.includes("com"));
-let newname = "sonamKanchan";
-console.log(newname.split("K"));
+//add(4, 6); //function call
+let a = [1, 2, 3];
+let b = "Shubham-Sahu";
+console.log(b.split("b"));
+let c = [4, 5, 6];
+console.log(a.join("="));

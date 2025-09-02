@@ -1,8 +1,12 @@
-div {
+/* div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-self: center;
   height: 100vh;
+} */
+h1 {
+  color: blue;
+  text-align: center;
 }
