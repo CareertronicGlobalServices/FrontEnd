@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <ul class="Unorderedlist">
+        <li class="list_item">Check this out<span>Javascript</span></li>
+      </ul>
+    </div>
+    <script>
+      function addLanguage(name) {
+        const lis = document.createElement("li");
+        lis.innerHTML = `${name}`;
+        document.querySelector(".Unorderedlist").appendChild(lis);
+      }
+      addLanguage("python");
+      addLanguage("GOLang");
+      addLanguage("TypeScript");
+
+      function addLanguagenew(name) {
+        const lis = document.createElement("li");
+        lis.appendChild(document.createTextNode(name));
+
+        document.querySelector(".Unorderedlist").appendChild(lis);
+      }
+      addLanguagenew("newAdd");
+      addLanguagenew("React");
+      //Outer HTML
+
+      const listitem = document.querySelector("li");
+      console.log(listitem.innerHTML);
+      console.log(listitem.textContent);
+      console.log(listitem.innerText);
+      console.log(listitem.outerHTML);
+
+      // Edit
+      // const secondlang = document.querySelector("li:nth-child(2)");
+      // console.log(secondlang.innerHTML);
+      // //secondlang.innerHTML = "kanchan";
+      // const newli = document.createElement("li");
+      // newli.textContent = "newitem";
+      // secondlang.replaceWith(newli);
+
+      const repElement = document.querySelector("li:nth-child(3)");
+      console.log(repElement.innerHTML);
+      repElement.innerHTML = "Gulshan+Shubham";
+      //repElement.outerHTML = "<h1>outer</h1>";
+      console.log(repElement.innerHTML);
+      const nayaElement = document.createElement("h1");
+      nayaElement.innerHTML = "I am the naya element";
+      repElement.replaceWith(nayaElement);
+      console.log(repElement.innerText);
+    </script>
+  </body>
+</html>

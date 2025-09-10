@@ -71,3 +71,8 @@ console.log(...b);
 
 // let d = Array.of("Sonam ", "Shubham ", "Gulshan");
 // console.log(d);
+const arr1 = [1, 2, 3, 4, 5];
+console.log(arr1);
+arr1.forEach((element) => {
+  console.log(element + 4);
+});

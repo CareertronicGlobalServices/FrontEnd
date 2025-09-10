@@ -1,10 +1,5 @@
-//console.log("Hie I  m Active");
-
-const gulshan = document.getElementsByClassName("shubham");
-console.log(gulshan.children); //HTML Collection //Live collection html elements
-//--------------------------
-const sonam = document.querySelectorAll(".shubham");
-console.log(sonam); //html code
-
-console.log(sonam[0].children);
-console.log(sonam.children[0].innerHTML);
+// const x = document.getElementById("shubham");
+// console.log(x.children);
+// console.log(x.children[1].innerHTML);
+// x.children[1].innerHTML = "Welcome to my home";
+// console.log(x.children[1].innerHTML);

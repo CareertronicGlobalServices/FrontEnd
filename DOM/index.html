@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <!-- <div class="parent">
+      <p class="day">Monday</p>
+      // lets check node list
+      <p class="day">Tuesday<span>hj</span></p>
+      <p class="day">Wednesday</p>
+      <p class="day">Thursday</p>
+    </div>
+    <!-- <div class="parent">parent 2</div>
+    <div class="parent">parent3</div>
+    <div class="parent">parent 4</div> -->
+    <script>
+      const parent = document.querySelector(".parent");
+      console.log(parent);
+      console.log(parent.children);
+      console.log(parent.children[1].innerHTML);
+      console.log(parent.childNodes);
+      for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+      }
+      // parent.children[1].style.backgroundColor = "orange";
+
+      // console.log(parent.lastElementChild.innerHTML);
+
+      // const dayone = document.querySelector(".day");
+      // console.log(dayone.parentElement);
+      // console.log(dayone.nextElementSibling);
+      const newDiv = document.createElement("div");
+      newDiv.innerHTML = "I am the new Div";
+      document.body.appendChild(newDiv);
+    </script>
+  </body>
+  -->
+</html>

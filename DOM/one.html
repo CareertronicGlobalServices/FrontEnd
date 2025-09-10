@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <ul class="list">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+    </div>
+    <script>
+      const htmlCol = document.getElementsByTagName("li");
+      console.log(htmlCol);
+      const nodeL = document.querySelectorAll("li");
+      console.log(nodeL);
+
+      const newElement = document.createElement("li");
+      newElement.innerHTML = "four";
+      document.querySelector(".list").appendChild(newElement);
+      console.log(htmlCol);
+      console.log(nodeL);
+    </script>
+  </body>
+</html>
